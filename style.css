@@ -1,0 +1,23 @@
+
+.navbar{
+    background: linear-gradient(135deg, #80E8AF, #85F2D5);
+    min-height: 100px;
+}
+.link_menu a{
+    color: #D498CF !important;
+    padding-left: 10px;
+}
+.link_menu a:hover{
+    background-color: #D498CF !important; color: #80E8AF !important;
+    border-radius: 10px;
+}
+#logo_string{
+    font-family: Helvetica, Arial; 
+    padding-right: 50%; 
+    margin-left: 10px;
+    font-size: 40px;
+    background-color: #D498CF;
+    border-radius: 20px;
+    padding: 5px;
+    color: #80E8AF;
+}
