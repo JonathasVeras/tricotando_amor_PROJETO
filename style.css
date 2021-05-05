@@ -1,23 +1,92 @@
+*{
+    margin: 0;
+    padding: 0ch;
+}
+
+#container_main{
+    background-color: rgb(206, 201, 201); 
+    padding: 20px;
+}
 
 .navbar{
-    background: linear-gradient(135deg, #80E8AF, #85F2D5);
+    background: linear-gradient(135deg, #E05B4C, #FF7E70);
     min-height: 100px;
 }
+
 .link_menu a{
-    color: #D498CF !important;
     padding-left: 10px;
 }
+
 .link_menu a:hover{
-    background-color: #D498CF !important; color: #80E8AF !important;
+    background-color: white !important; color: #E05B4C !important;
     border-radius: 10px;
 }
+
 #logo_string{
-    font-family: Helvetica, Arial; 
-    padding-right: 50%; 
+    font-family: Helvetica, Arial;
     margin-left: 10px;
     font-size: 40px;
-    background-color: #D498CF;
     border-radius: 20px;
     padding: 5px;
-    color: #80E8AF;
+    color: white;
+}
+
+.carousel-item img{
+    border-radius: 90px;
+}
+
+.carousel-caption p{
+    text-align: center;
+    font-size: 40px;
+    background-color: #E05B4C; 
+    color: rgb(206, 201, 201); 
+    border-radius: 15px;
+}
+
+#linha{
+    text-align: center;
+    background-color: #E05B4C;
+    color: rgb(206, 201, 201);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#Carrosel{
+    width: 50%; 
+    margin-left: 25%;
+}
+
+/*Para modificar o tamanho da foto dos protudos só em resolução baixa*/
+.row-cols-1 img{
+    max-width: 500px;
+}
+
+#imagem_sobre{
+    width: 300px;
+}
+
+.background-vermelho{
+    background: linear-gradient(135deg, #e05b4c8e, #ff7e708e);
+}
+
+.bordas_arredondadas{
+    border-radius: 10px;
+}
+
+#produtos .border{
+    border-radius: 10px;
+}
+
+.back-card{
+    background: #e05b4c6c;
+    transition: all .5s linear;
+}
+
+.back-card:hover{
+    width: 230px;
+    height: 400px
+}
+
+.container-sm #container_navbar{
+    min-height: 550px;
 }
