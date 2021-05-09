@@ -37,7 +37,11 @@
                         </li>
                         <!--Login-->
                         <li class="nav-item link_menu">
-                        <a class="nav-link" href="#">| Login |</a>
+                        <a class="nav-link" href="?pagina=login">| Login |</a>
+                        </li>
+                        <!--Criar conta-->
+                        <li class="nav-item link_menu">
+                        <a class="nav-link" href="?pagina=registro">| Criar conta |</a>
                         </li>
                         <!--Carrinho-->
                         <li class="nav-item link_menu">

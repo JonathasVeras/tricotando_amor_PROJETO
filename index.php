@@ -20,6 +20,12 @@ switch ($pagina) {
     case 'fale_conosco':
         include 'views/fale_conosco.php';
         break;
+    case 'registro':
+        include 'views/registro.php';
+        break;
+    case 'login':
+        include 'views/login.php';
+        break;
     
     default:
         include 'views/main.php';
